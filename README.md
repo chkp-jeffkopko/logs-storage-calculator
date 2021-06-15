@@ -2,7 +2,7 @@
 This little tool helps to estimate the amount of AWS logs your AWS account is generating.
 Currently it supports:
 - VPC Flow Logs (via CloudWatch Logs or S3)
-- (comming soon) CloudTrail 
+- CloudTrail 
 
 It tries to guestimate the VPCFL traffic using 2 heuristics:
 1. Calculate it from CloudWatch Logs (using the new CWL Insights query lang) - OR-
